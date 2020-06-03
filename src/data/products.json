@@ -1,0 +1,114 @@
+{
+    "Products": {
+
+        "one":
+            {
+                "id": "1",
+                "name": "Spencer",
+                "price": "1499",
+                "type": "Jacket",
+                "image": "/images/products/Mens/Jackets/Spencer.jpg",
+                "alt": "Balmain Spencer Jacket"
+            },
+
+        "two":
+            {
+                "id": "2",
+                "name": "Vegan",
+                "price": "799",
+                "type": "Jacket",
+                "image": "/images/products/Mens/Jackets/Vegan.jpg"
+            },
+
+        "three":
+            {
+                "id": "3",
+                "name": "Double Breast",
+                "price": "1999",
+                "type": "Jacket",
+                "image": "/images/products/Mens/Jackets/DoubleBreast.jpg"
+            },
+
+        "four":
+            {
+                "id": "4",
+                "name": "Trench",
+                "price": "2199",
+                "type": "Jacket",
+                "image": "/images/products/Mens/Jackets/Trench.webp"
+            },
+
+        "five":
+            {
+                "id": "5",
+                "name": "Sport",
+                "price": "899",
+                "type": "Shoe",
+                "image": "/images/products/Mens/shoes/Sport.jpg"
+            },
+
+        "six":
+            {
+                "id": "6",
+                "name": "Chelsea",
+                "price": "499",
+                "type": "Shoe",
+                "image": "/images/products/Mens/shoes/Chelsea.jpg"
+            },
+
+        "seven":
+            {
+                "id": "7",
+                "name": "Athlete",
+                "price": "449",
+                "type": "Shoe",
+                "image": "/images/products/Mens/shoes/Athlete.jpg"
+            },
+
+        "eight":
+            {
+                "id": "8",
+                "name": "Tennis",
+                "price": "399",
+                "type": "Shoe",
+                "image": "/images/products/Mens/shoes/Tennis.webp"
+            },
+
+        "nine":
+            {
+                "id": "9",
+                "name": "Polar",
+                "price": "749",
+                "type": "Shirt",
+                "image": "/images/products/Mens/tops/Polar.jpg"
+            },
+
+        "ten":
+            {
+                "id": "10",
+                "name": "Chrome",
+                "price": "599",
+                "type": "Shirt",
+                "image": "/images/products/Mens/tops/Chrome.jpg"
+            },
+
+        "eleven":
+            {
+                "id": "11",
+                "name": "Bandana",
+                "price": "349",
+                "type": "Shirt",
+                "image": "/images/products/Mens/tops/Bandana.jpg"
+            },
+
+        "twelve":
+            {
+                "id": "12",
+                "name": "James Dean",
+                "price": "399",
+                "type": "Shirt",
+                "image": "/images/products/Mens/tops/JamesDean.jpg"
+        
+            }
+}
+}
