@@ -32,6 +32,7 @@ $text-shadows: (
     "red900": red -1px 0px 0px,
     "blue100": teal 2px 0px 0px,
     "blue900": blue 1px 0px 0px,
+    "blackS": black 1px 1px 5px
 );
 $box-shadows: (
     "soft": #444444 20px 20px 0px,
@@ -99,10 +100,16 @@ body {
     max-height: 200px;
 }
 .product-name {
-    color: map-get($text-colors,alt)
+    color: map-get($text-colors,alt);
+    text-shadow: map-get($text-shadows, blackS);
 }
 .product-price {
     color: $primary-color;
+    text-shadow: map-get($text-shadows, blackS);
+}
+.product-desc {
+    color: white;
+    text-shadow: map-get($text-shadows, blackS);
 }
 //NAV START
 header {
@@ -123,9 +130,11 @@ header ul {
 .nav-ul__flex {
     min-width:50%;
     display: none;
+    
 }
 .nav-ul__flex li {
     padding: 10px 10px 10px 10px;
+    
 }
 .nav-ul__top {
     display: flex;

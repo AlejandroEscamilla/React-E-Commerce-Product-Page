@@ -75,10 +75,17 @@ body {
 
 .product-name {
   color: orange;
+  text-shadow: black 1px 1px 5px;
 }
 
 .product-price {
   color: #daa520;
+  text-shadow: black 1px 1px 5px;
+}
+
+.product-desc {
+  color: white;
+  text-shadow: black 1px 1px 5px;
 }
 
 header {
