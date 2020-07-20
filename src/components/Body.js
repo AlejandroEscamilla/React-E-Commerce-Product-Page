@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 // import products from "../data/products.json";
 
 const buttons = [
