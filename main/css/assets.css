@@ -60,8 +60,8 @@ body {
   max-width: -webkit-min-content;
   max-width: -moz-min-content;
   max-width: min-content;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 .product-container img {
@@ -272,13 +272,17 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px 10px;
-  height: 30px;
-  padding: 10px;
+  height: 60px;
+  padding: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   border-radius: 15%;
   background-color: black;
   -webkit-box-shadow: white 1px 1px 2px -.5px;
           box-shadow: white 1px 1px 2px -.5px;
   color: white;
+  font-size: 2em;
 }
 
 .button-filter__style:hover {
@@ -293,10 +297,25 @@ footer {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
   }
+  #product-parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   .product-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    text-align: center;
     font-size: 1.2em;
     padding: 0px;
     max-width: -webkit-min-content;
@@ -308,6 +327,8 @@ footer {
   .product-container img {
     -o-object-fit: cover;
        object-fit: cover;
+    opacity: .6;
+    border: solid 5px black;
     min-width: 40vw;
     max-width: 40vw;
     min-height: 600px;
