@@ -18,7 +18,7 @@ class Footer extends Component {
                     </div>
 
                     <div class="footer-block__right footer-main__item">
-                        <h3 class="element-h span-color__style">Contact Us</h3>
+                        <h3 class="element-h span-color__style"><a href="https://alejandro-e-comm-full.netlify.app/Contact" rel="noopener noreferrer" target="_blank">Contact Us</a></h3>
                     </div>
 
                     <div class="footer-block__left footer-main__item">
