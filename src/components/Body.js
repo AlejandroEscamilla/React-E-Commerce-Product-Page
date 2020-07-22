@@ -148,7 +148,7 @@ const buttons = [
 <div id="product-parent">
             <div key={Products.type} className="product-container">
                     <img className="product-image" src={Products.image} alt={Products.alt}/>
-                    <h3 className="product-name">{Products.name}</h3>
+                    <h4 className="product-name">{Products.name}</h4>
                     <div className="product-price">{Products.price}</div>
                     <p className="product-desc">{Products.alt}</p>
             </div>
